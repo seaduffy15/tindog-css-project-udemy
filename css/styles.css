@@ -1,0 +1,176 @@
+body {
+    font-family: 'Montserrat', sans-serif;  
+    text-align: center;
+}
+
+h1, h2, h3 {  
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15% 0;
+}
+
+.color-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;  
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hamburger-menu {
+    color: white;
+    background-color: white;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+#title {
+}
+
+/* Title */
+
+.main-title {
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 20%;
+}
+
+.small-header {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Features */
+
+.features {
+    padding: 10% 5%;
+    position: relative;
+    z-index: 1;
+}
+
+.featurette {
+    padding: 5% 5%;
+}
+
+.fa-feature {
+    color: #ef8172;
+    font-size: 4rem;
+    padding-bottom: 15px;
+}
+
+.fa-feature:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    margin: 20px;
+    border-radius: 100%;
+    width: 10%;
+}
+
+.medium-title-light {
+    color: white;
+    font-weight: 900;
+}
+
+#press {
+    padding-bottom: 5%;
+}
+
+.press-img {
+    width: 16%;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 5% 10%;
+}
+
+.card {
+    margin: 20px;
+}
+
+.pricing-header {
+    color: black;
+}
+
+/* Call To Action */
+
+#cta {
+    padding: 5% 12%;
+}
+
+.cta-title {
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 7%;
+}
+
+.fa-footer {
+    padding: 0 10px 5%;
+}
